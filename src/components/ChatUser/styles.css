@@ -1,0 +1,13 @@
+.chat-user {
+  display: flex;
+  gap: 10px;
+  width: 100%;
+  flex-direction: row;
+  cursor: pointer;
+  user-select: none;
+  align-items: center;
+}
+
+.chat-user > span {
+  min-width: 40px;
+}
